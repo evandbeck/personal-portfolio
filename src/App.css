@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar Component */
+
+.Navbar {
+  border: solid 1px red;
+  display: flex;
+}
+
+.NavbarLink {
+  justify-content: center;
+}
