@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Card } from "react-bootstrap";
 
-function ProjectCard(...project) {
+function ProjectCard({name, github, demo, techStack}) {
 
-  console.log(project)
   return (
-    <div>test</div>
+    <div>
+      <div>{name}</div>
+      <div>{github}</div>
+      <div>{demo}</div>
+      <div>{techStack}</div>
+    </div>
   )
 }
 
