@@ -1,8 +1,10 @@
 import React from 'react'
 
-function ProjectCard() {
+function ProjectCard(...project) {
+
+  console.log(project)
   return (
-    <div></div>
+    <div>test</div>
   )
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
-let projects = []
+let projects = ["Project 1", "Project 2", "Project 3"]
 
 const displayProjectCards = projects.map(project => <ProjectCard {...project}/>)
 
